@@ -1,10 +1,7 @@
 // TaskList.js
 import React, { useState } from 'react';
 import { Draggable, Droppable } from 'react-beautiful-dnd';
-import ResizableTable from '../ResizableTable/ResizableTable';
 import './TaskList.css';
-
-
 
 const TaskList = ({
   tasks,
