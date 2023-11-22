@@ -27,7 +27,36 @@
 .App-link {
   color: #61dafb;
 }
+/* TodoApp.css */
+.task-list {
+  list-style-type: none;
+  padding: 0;
+}
 
+.task-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.task-list input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+.task-list button {
+  margin-left: auto;
+}
+/* TodoApp.css */
+.add-button {
+  background: #27ae60; /* Green background color */
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

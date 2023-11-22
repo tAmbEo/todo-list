@@ -1,0 +1,50 @@
+/* TodoForm.css */
+.form-modal {
+  background: #3498db; /* Blue background color */
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  margin: auto;
+  
+}
+.ReactModal__Content {
+  background-color: transparent!important;
+  border: none!important;
+}
+.form-title {
+  color: white;
+  font-weight: bold;
+}
+
+.form-table {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.form-table td {
+  padding: 8px;
+  text-align: left;
+}
+
+.form-table .btn {
+  padding: 8px;
+  text-align: center;
+}
+
+.commit-button {
+  background: #27ae60; /* Green background color */
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.cancel-button {
+  background: #808080; /* Gray background color */
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  text-align: center;
+}

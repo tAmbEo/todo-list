@@ -1,0 +1,35 @@
+/* TaskList.css */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 8px;
+  }
+  
+  button {
+    margin-left: auto;
+  }
+
+.task-list-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+}
+
+.cell {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+  
