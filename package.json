@@ -3,11 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@babel/plugin-transform-private-property-in-object": "^7.23.3",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "nodemon": "^3.0.1",
+    "re-resizable": "^6.9.11",
     "react": "^18.2.0",
+    "react-beautiful-dnd": "^13.1.1",
+    "react-datepicker": "^4.23.0",
     "react-dom": "^18.2.0",
+    "react-modal": "^3.16.1",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
