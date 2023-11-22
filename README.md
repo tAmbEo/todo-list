@@ -4,14 +4,17 @@ https://nodejs.org/en
 
 ##Clone the Repository:
 Open your terminal or command prompt and run the following command:
-git clone https://github.com/tAmbEo/todo-list.git
+
+$git clone https://github.com/tAmbEo/todo-list.git
 
 ##Install Dependencies:
 Run the following command to install the project dependencies:
+
 $npm install
 
 ##Run the Application:
 Once the installation is complete, start the development server:
+
 $npm start
 
 This command will start the development server, and you should see output indicating that the application is running.
